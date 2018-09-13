@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class ColoredButton: UIButton {
+public final class ColoredButton: UIButton {
     
     private let side: CGFloat = 50
     private var isStopped = true
@@ -72,7 +72,7 @@ final class ColoredButton: UIButton {
             for: .touchUpInside)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
