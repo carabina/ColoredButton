@@ -18,7 +18,7 @@ public final class ColoredButton: UIButton {
     
     // MARK: - Actions
     
-    func update(with startAction: @escaping () -> Void, stopAction: @escaping () -> Void) {
+    public func update(with startAction: @escaping () -> Void, stopAction: @escaping () -> Void) {
         start = startAction
         stop = stopAction
     }

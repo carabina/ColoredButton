@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'StartButton'
-    s.version          = '1.1.1'
+    s.version          = '1.1.3'
     s.summary          = 'This is a button with two actions and changing layout.'
 
     s.description      = <<-DESC
